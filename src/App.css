@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+}
+
+.App-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+p {
+    margin: 5px;
+}
+
+.ip-info-list {
+    display: flex;
+    padding: 25px 0;
+}
+
+.ip-info-search {
+    display: flex;
+    justify-content: center;
+}
+
+.ip-info-search__field {
+    margin-right: 15px;
+}
+
+.ip-info-search__button {
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 0 15px;
+    border-radius: 4px;
+}
+
+.ip-info__error {
+    padding: 15px;
+    margin: 16px 0;
+    border-radius: 4px;
+    color: rgba(0,0,0,0.65);
+    line-height: 1.5;
+    border: 1px solid #ffa39e;
+    background-color: #fff1f0;
+    display: inline-block;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
